@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>马来西亚旅游指南</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <h1>马来西亚旅游</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#welcome">主页</a></li>
+                <li><a href="#destinations">目的地</a></li>
+                <li><a href="#activities">活动</a></li>
+                <li><a href="#guide">旅行指南</a></li>
+                <li><a href="#accommodation">住宿</a></li>
+                <li><a href="#food">餐饮</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-image">
+                <img src="images/malaysia-skyline.jpg" alt="马来西亚天际线">
+            </div>
+            <div class="hero-content">
+                <h2>探索马来西亚的魅力</h2>
+                <p>发现文化、美食与自然的完美融合</p>
+                <a href="#destinations" class="cta-button">开始探索</a>
+            </div>
+        </section>
+
+        <section id="destinations" class="section">
+            <h2>热门景点</h2>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="images/kl.jpg" alt="吉隆坡双子塔">
+                    <div class="destination-content">
+                        <h3>吉隆坡双子塔</h3>
+                        <p class="location">吉隆坡市中心</p>
+                        <p>马来西亚的标志性建筑，高452米的双子塔曾是世界最高双塔建筑。塔内设有观景台、商场和音乐厅，是现代马来西亚的象征。</p>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/batu-caves.jpg" alt="黑风洞">
+                    <div class="destination-content">
+                        <h3>黑风洞</h3>
+                        <p class="location">吉隆坡近郊</p>
+                        <p>始建于1891年的印度教圣地，以272级彩虹阶梯闻名。每年大宝森节期间���这里都会举行盛大的宗教庆典活动。</p>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/georgetown.jpg" alt="乔治市古迹区">
+                    <div class="destination-content">
+                        <h3>乔治市古迹区</h3>
+                        <p class="location">槟城</p>
+                        <p>UNESCO世界文化遗产，保存着完整的殖民地建筑群和多元文化遗产。街头艺术、古迹建筑和地道美食让这里成为文化旅游胜地。</p>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/malacca-river.jpg" alt="马六甲河">
+                    <div class="destination-content">
+                        <h3>马六甲河畔</h3>
+                        <p class="location">马六甲</p>
+                        <p>见证马六甲600年历史变迁的河流，两岸保留着葡萄牙、荷兰和英国殖民时期的建筑，晚上可以体验浪漫的河畔游船。</p>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/mount-kinabalu.jpg" alt="京那巴鲁山">
+                    <div class="destination-content">
+                        <h3>京那巴鲁山</h3>
+                        <p class="location">沙巴</p>
+                        <p>东南亚最高峰（4,095米），是世界级登胜地。山上栖息着丰富的动植物，是生物多样性的天堂。</p>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/langkawi-beach.jpg" alt="兰卡威海滩">
+                    <div class="destination-content">
+                        <h3>兰卡威天空之桥</h3>
+                        <p class="location">兰卡威</p>
+                        <p>横跨于马来西亚著名度假岛屿的空中步道，让游客可以俯瞰整个兰卡威群岛的壮丽景色，是观赏日落的绝佳地点。</p>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/mulu-caves.jpg" alt="姆鲁洞穴">
+                    <div class="destination-content">
+                        <h3>姆鲁国家公园</h3>
+                        <p class="location">砂拉越</p>
+                        <p>世界遗产地，以壮观的喀斯特地貌和世界最大洞穴系统闻名。鹿洞、清水洞等洞穴群展现了大自然的鬼斧神工。</p>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/kuching.jpg" alt="古晋">
+                    <div class="destination-content">
+                        <h3>古晋猫城</h3>
+                        <p class="location">砂拉越</p>
+                        <p>以猫为主题的特色城市，处处可见猫的雕塑和艺术品。这里还保存着砂拉越白人拉者时期的历史建筑，展现独特的文化魅力。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities" class="section">
+            <h2>精彩活动</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <img src="images/hiking.jpg" alt="徒步旅行">
+                    <div class="activity-content">
+                        <h3>徒步旅行</h3>
+                        <p class="activity-description">探索原始热带雨林</p>
+                        <div class="recommended-spots">
+                            <h4>推荐地点：</h4>
+                            <ul>
+                                <li>
+                                    <span class="spot-name">京那巴鲁国家公园</span>
+                                    <p>东南亚最高峰徒步体验，可观赏珍稀植物</p>
+                                </li>
+                                <li>
+                                    <span class="spot-name">太平山</span>
+                                    <p>马来西亚最古老的山地度假胜地，清凉宜人</p>
+                                </li>
+                                <li>
+                                    <span class="spot-name">登嘉楼州立森林公园</span>
+                                    <p>原始雨林探索，瀑布溪流穿行其中</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <img src="images/diving.jpg" alt="潜水">
+                    <div class="activity-content">
+                        <h3>潜水体验</h3>
+                        <p class="activity-description">探索缤纷海底世界</p>
+                        <div class="recommended-spots">
+                            <h4>推荐地点：</h4>
+                            <ul>
+                                <li>
+                                    <span class="spot-name">仙本那</span>
+                                    <p>世界顶级潜水胜地，珊瑚礁和海龟天堂</p>
+                                </li>
+                                <li>
+                                    <span class="spot-name">刁岛</span>
+                                    <p>适合初学者的潜水地点，水清沙白</p>
+                                </li>
+                                <li>
+                                    <span class="spot-name">邦咯岛</span>
+                                    <p>历沉船潜水，丰富的海洋生态</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <img src="images/cooking.jpg" alt="烹饪课程">
+                    <div class="activity-content">
+                        <h3>烹饪课程</h3>
+                        <p class="activity-description">学习地道马来美食</p>
+                        <div class="recommended-spots">
+                            <h4>推荐地点：</h4>
+                            <ul>
+                                <li>
+                                    <span class="spot-name">槟烹饪学校</span>
+                                    <p>学习娘惹美食和槟城地道小吃</p>
+                                </li>
+                                <li>
+                                    <span class="spot-name">吉隆坡LaZat烹饪学校</span>
+                                    <p>专业马来传统美食教学</p>
+                                </li>
+                                <li>
+                                    <span class="spot-name">马六甲娘惹文化馆</span>
+                                    <p>体验正宗娘惹美食制作</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <img src="images/cultural-experience.jpg" alt="文化体验">
+                    <div class="activity-content">
+                        <h3>文化体验</h3>
+                        <p class="activity-description">传统工艺与表演艺术</p>
+                        <div class="recommended-spots">
+                            <h4>推荐地点：</h4>
+                            <ul>
+                                <li>
+                                    <span class="spot-name">沙捞越文化村</span>
+                                    <p>体验婆罗洲原住民文化和传统舞蹈</p>
+                                </li>
+                                <li>
+                                    <span class="spot-name">马六甲苏丹王宫</span>
+                                    <p>了马传统宫廷文化</p>
+                                </li>
+                                <li>
+                                    <span class="spot-name">槟城蝴蝶农场</span>
+                                    <p>传统手工艺制作体验</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="guide" class="section">
+            <h2>旅行指南</h2>
+            <div class="guide-content">
+                <div class="guide-item">
+                    <h3>签证信息</h3>
+                    <div class="guide-details">
+                        <h4>入境要求</h4>
+                        <ul>
+                            <li>护照有效期至少6个月</li>
+                            <li>需提供往返机票</li>
+                            <li>需提供足够的旅行资金证明</li>
+                            <li>需填写入境卡（白卡）</li>
+                        </ul>
+                        
+                        <h4>签证类型</h4>
+                        <ul>
+                            <li>电子签证 (eVISA)
+                                <p>- 适用于大多数游客</p>
+                                <p>- 在线申请，处理时间3-5个工作日</p>
+                                <p>- 单次入境，停留期30天</p>
+                            </li>
+                            <li>落地签证 (VOA)
+                                <p>- 仅限特定国家游客</p>
+                                <p>- 在主要入境口岸办理</p>
+                                <p>- 停留期14天</p>
+                            </li>
+                            <li>免签入境
+                                <p>- 适用于东盟国家等特定国家游客</p>
+                                <p>- 停留期视国籍而定（14-90天不等）</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="guide-item">
+                    <h3>交通攻略</h3>
+                    <div class="guide-details">
+                        <h4>城市间交通</h4>
+                        <ul>
+                            <li>航空
+                                <p>- 亚航(AirAsia)提供经济实惠的国内航线</p>
+                                <p>- 马航(MAS)覆盖主要城市</p>
+                            </li>
+                            <li>铁路
+                                <p>- KTM铁路连接主要城市</p>
+                                <p>- 提供日间和夜间列车服务</p>
+                            </li>
+                            <li>长途巴士
+                                <p>- 覆盖范围广，价格实惠</p>
+                                <p>- 建议选择知名巴士公司</p>
+                            </li>
+                        </ul>
+
+                        <h4>城市内交通</h4>
+                        <ul>
+                            <li>吉隆坡
+                                <p>- LRT轻轨系统</p>
+                                <p>- MRT地铁</p>
+                                <p>- Monorail单轨列车</p>
+                                <p>- Grab打车服务</p>
+                            </li>
+                            <li>槟城
+                                <p>- Rapid Penang公交系统</p>
+                                <p>- 三轮车（观光体验）</p>
+                            </li>
+                            <li>马六甲
+                                <p>- 观光三轮车</p>
+                                <p>- 河畔游船</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="guide-item">
+                    <h3>旅行贴士</h3>
+                    <div class="guide-details">
+                        <h4>气候建议</h4>
+                        <ul>
+                            <li>全年高温潮湿
+                                <p>- 建议携带防晒用品</p>
+                                <p>- 准备雨具（午后常有阵雨）</p>
+                            </li>
+                            <li>最佳旅行季节
+                                <p>- 5-9月：相对干燥季节</p>
+                                <p>- 避开11-2月雨季</p>
+                            </li>
+                        </ul>
+
+                        <h4>文化礼仪</h4>
+                        <ul>
+                            <li>宗教场所
+                                <p>- 进入清真寺需脱鞋</p>
+                                <p>- 着装需保持得体</p>
+                                <p>- 尊重当地宗教习俗</p>
+                            </li>
+                            <li>社交礼仪
+                                <p>- 与穆斯林握手需等对方主动</p>
+                                <p>- 进入民宅需脱鞋</p>
+                            </li>
+                        </ul>
+
+                        <h4>安全提示</h4>
+                        <ul>
+                            <li>随身物品
+                                <p>- 保管好贵重物品</p>
+                                <p>- 备份重要证件</p>
+                            </li>
+                            <li>饮食安全
+                                <p>- 饮用瓶装水</p>
+                                <p>- 选择卫生条件好的餐厅</p>
+                            </li>
+                            <li>紧急联系
+                                <p>- 警察：999</p>
+                                <p>- 救护：999</p>
+                                <p>- 旅游警察：03-2149 6590</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="accommodation" class="section">
+            <h2>住宿推荐</h2>
+            <div class="accommodation-grid">
+                <div class="accommodation-card">
+                    <img src="images/luxury-hotel.jpg" alt="豪华酒店">
+                    <h3>豪华酒店</h3>
+                    <p>尽享奢华体验</p>
+                    <div class="hotel-recommendations">
+                        <div class="hotel-item">
+                            <h4>吉隆坡文华东方酒店</h4>
+                            <p class="rating">⭐⭐⭐⭐⭐ 4.8/5</p>
+                            <p class="address">地址：吉隆中城公园, 50088吉隆坡</p>
+                            <p class="phone">电话：+60 3-2380 8888</p>
+                            <p class="review">点评：位于双子塔旁，顶级奢华体验，服务一流，景观绝佳</p>
+                        </div>
+                        <div class="hotel-item">
+                            <h4>槟城乔治市东家酒店</h4>
+                            <p class="rating">⭐⭐⭐⭐⭐ 4.7/5</p>
+                            <p class="address">地址：10, Lebuh Farquhar, 10200 George Town, Penang</p>
+                            <p class="phone">电话：+60 4-222 2000</p>
+                            <p class="review">点评：百年历史殖民地建筑，完美融合古典与现代奢华</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accommodation-card">
+                    <img src="images/boutique-hotel.jpg" alt="精品酒店">
+                    <h3>精品酒店</h3>
+                    <p>独特风格体验</p>
+                    <div class="hotel-recommendations">
+                        <div class="hotel-item">
+                            <h4>马六甲The Majestic</h4>
+                            <p class="rating">⭐⭐⭐⭐ 4.6/5</p>
+                            <p class="address">地址：188 Jalan Bunga Raya, 75100 Melaka</p>
+                            <p class="phone">电话：+60 6-289 8000</p>
+                            <p class="review">点评：殖民地风格精品酒店，临河而建，环境优雅宁静</p>
+                        </div>
+                        <div class="hotel-item">
+                            <h4>金马伦高原The Smokehouse</h4>
+                            <p class="rating">⭐⭐⭐⭐ 4.5/5</p>
+                            <p class="address">地址：By The Golf Course, 39000 Tanah Rata, Cameron Highlands</p>
+                            <p class="phone">电话：+60 5-491 1215</p>
+                            <p class="review">点评：英式古典建筑，花园优美，适合度假放松</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accommodation-card">
+                    <img src="images/homestay.jpg" alt="民宿">
+                    <h3>特色民宿</h3>
+                    <p>体验本地生活</p>
+                    <div class="hotel-recommendations">
+                        <div class="hotel-item">
+                            <h4>槟城Armenian Suite</h4>
+                            <p class="rating">⭐⭐⭐⭐½ 4.4/5</p>
+                            <p class="address">地址：Armenian Street, Georgetown, 10200 Penang</p>
+                            <p class="phone">电话：+60 4-262 0263</p>
+                            <p class="review">点评：位于古城区，百年老屋改建，体验地道槟城生活</p>
+                        </div>
+                        <div class="hotel-item">
+                            <h4>马六甲河畔Wayfarer</h4>
+                            <p class="rating">⭐⭐⭐⭐ 4.3/5</p>
+                            <p class="address">地址：26 Jalan Kampung Pantai, 75200 Melaka</p>
+                            <p class="phone">电话：+60 6-281 4241</p>
+                            <p class="review">点评：临河改建老屋，设计现代，地理位置优越</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="food" class="section">
+            <h2>美食天地</h2>
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="images/malay-food.jpg" alt="马来美食">
+                    <h3>马来美食</h3>
+                    <p>传统风味美食</p>
+                    <div class="food-recommendations">
+                        <div class="dish-item">
+                            <h4>娜西椰浆饭 Nasi Lemak</h4>
+                            <p class="description">马来西亚国民美食，以椰浆蒸煮的香米搭配辣椒酱、花生、小江鱼干和黄瓜</p>
+                            <p class="taste">特色：椰香浓郁，咸香开胃</p>
+                            <p class="where-to-eat">推荐餐厅：Village Park Restaurant（八打灵再也）</p>
+                        </div>
+                        <div class="dish-item">
+                            <h4>沙爹 Satay</h4>
+                            <p class="description">烤制的肉串，配以花生酱，黄瓜和米饼</p>
+                            <p class="taste">特色：肉质鲜嫩，花生酱香浓</p>
+                            <p class="where-to-eat">推荐餐厅：Kajang Satay Hj Samuri（加影）</p>
+                        </div>
+                        <div class="dish-item">
+                            <h4>仁当 Rendang</h4>
+                            <p class="description">以椰浆和香料慢炖的牛肉或鸡肉</p>
+                            <p class="taste">特色：香料浓郁，肉质软烂</p>
+                            <p class="where-to-eat">推荐餐厅：Bijan Restaurant（吉隆坡）</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="images/chinese-food.jpg" alt="华人美食">
+                    <h3>华人美食</h3>
+                    <p>地道中华料理</p>
+                    <div class="food-recommendations">
+                        <div class="dish-item">
+                            <h4>槟城炒粿条 Char Kway Teow</h4>
+                            <p class="description">以大火快���的河粉，加入虾仁、豆芽和韭黄</p>
+                            <p class="taste">特色：锅气十足，咸鲜可口</p>
+                            <p class="where-to-eat">推荐摊位：Siam Road炒粿条（槟城）</p>
+                        </div>
+                        <div class="dish-item">
+                            <h4>肉骨茶 Bak Kut Teh</h4>
+                            <p class="description">以药材和香料炖煮的猪肉汤，配以油条和白米饭</p>
+                            <p class="taste">特色：浓郁药膳香，肉质鲜美</p>
+                            <p class="where-to-eat">推荐餐厅：莲花肉骨茶（巴生）</p>
+                        </div>
+                        <div class="dish-item">
+                            <h4>福建面 Hokkien Mee</h4>
+                            <p class="description">以虾汤为底的炒面，配以虾仁、猪肉片和青菜</p>
+                            <p class="taste">特色：虾味浓郁，面条弹牙</p>
+                            <p class="where-to-eat">推荐摊位：Kim Lian Kee（吉隆坡）</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="images/indian-food.jpg" alt="印度美食">
+                    <h3>印度美食</h3>
+                    <p>香料风味美食</p>
+                    <div class="food-recommendations">
+                        <div class="dish-item">
+                            <h4>香蕉叶饭 Banana Leaf Rice</h4>
+                            <p class="description">在香蕉叶上盛放的印度咖喱饭，配以多种咖喱和小菜</p>
+                            <p class="taste">特色：咖喱香浓，配菜丰富</p>
+                            <p class="where-to-eat">推荐餐厅：Devi's Corner（班底谷）</p>
+                        </div>
+                        <div class="dish-item">
+                            <h4>印度煎饼 Roti Canai</h4>
+                            <p class="description">层次分明的印度飞饼，配以咖喱汤</p>
+                            <p class="taste">特色：外酥内软，蘸料多样</p>
+                            <p class="where-to-eat">推荐餐厅：Valentine Roti（槟城）</p>
+                        </div>
+                        <div class="dish-item">
+                            <h4>坦都里鸡 Tandoori Chicken</h4>
+                            <p class="description">以印度香料腌制后在坦都泥炉中烤制的鸡肉</p>
+                            <p class="taste">特色：香料入味，外焦里嫩</p>
+                            <p class="where-to-eat">推荐餐厅：Restoran Moorthy's Mathai（吉隆坡）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="latest-news">
+            <h2>最新活动和新闻</h2>
+            <div class="news-container">
+                <div class="news-item">
+                    <img src="images/thaipusam.jpg" alt="大宝森节">
+                    <div class="news-content">
+                        <h3>2024年大宝森节庆典</h3>
+                        <p class="date">2024年1月25日</p>
+                        <p>黑风洞将举办盛大的大宝森节庆典，届时将有壮观的游行和宗教仪式。</p>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <img src="images/food-festival.jpg" alt="美食节">
+                    <div class="news-content">
+                        <h3>槟城国际美食节</h3>
+                        <p class="date">2024年3月15-31日</p>
+                        <p>为期两周的美食盛宴，展示马来西亚多元文化的特色美食。</p>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <img src="images/rainforest.jpg" alt="雨林音乐节">
+                    <div class="news-content">
+                        <h3>2024雨林世界音乐节</h3>
+                        <p class="date">2024年7月12-14日</p>
+                        <p>在沙捞越文化村举办的年度音乐盛会，汇集世界各地的音乐人。</p>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <img src="images/merdeka.jpg" alt="国庆日">
+                    <div class="news-content">
+                        <h3>国庆日庆典筹备工作启动</h3>
+                        <p class="date">2024年8月31日</p>
+                        <p>第67届国庆日庆典将在布城举行，包括大规模游行和文化表演。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>联系我们</h3>
+                <p>电话：+60 XX-XXXX XXXX</p>
+                <p>邮箱：info@malaysiatravel.com</p>
+            </div>
+            <div class="social-links">
+                <h3>关注我们</h3>
+                <a href="#">微信</a>
+                <a href="#">微博</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
